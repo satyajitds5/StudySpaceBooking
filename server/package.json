@@ -1,0 +1,43 @@
+{
+  "name": "final-project-mavericks",
+  "version": "1.0.0",
+  "description": "final-project-mavericks created by GitHub Classroom",
+  "main": "index.js",
+  "engines":{
+    "node": "18.12.1",
+    "npm": "8.19.2"
+  },
+  "scripts": {
+    
+      "client-install": "npm install --prefix client",
+      "server": "nodemon server.js",
+      "client": "npm start --prefix client",
+      "dev": "concurrently \"npm run server\" \"npm run client\"",
+      "start": "node server.js",
+      "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2022/final-project-mavericks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2022/final-project-mavericks/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2022/final-project-mavericks#readme",
+  "dependencies": {
+    "@stripe/stripe-js": "^1.46.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.5",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "react-to-print": "^2.14.10",
+    "stripe": "^11.1.0",
+    "uuid": "^9.0.0"
+  }
+}
