@@ -1,15 +1,7 @@
-# final-project-mavericks
-
-final-project-mavericks created by GitHub Classroom
-
 ## Project Title: Study Space Finder
 
 ### Team Members:
-
-- Aziz Vohra - vohra.az@northeastern.edu
-- Satyajit Das - das.sat@northeastern.edu
-- Altaf Shaikh - shaikh.alt@northeastern.edu
-- Bhawna Bassarmalani - bassarmalani.b@northeastern.edu
+- Satyajit Das
 
 ### Introduction:
 
